@@ -249,9 +249,9 @@ const Flights = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-4 mt-6">
       {finalarray.map((item, id) => (
-        <div key={id} className="pb-16">
+        <div key={id} className="pb-10">
           <div
             className="flex border shadow-md rounded-lg hover:border-primary transition-all cursor-pointer"
             onClick={() => handleAccordionToggle(id)}
